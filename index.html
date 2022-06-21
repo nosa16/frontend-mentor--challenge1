@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index1.css">
+
+  <title>snap</title>
+  <link rel="icon" type="image/x-icon" href="favicon-32x32.png">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,600;0,700;0,900;1,600;1,700;1,800&display=swap"
+    rel="stylesheet">
+
+<body>
+  <div class="container">
+    <header>
+      <button aria-controls="navbar" aria-expanded="false" class="hamburger-toggle"></button>
+      <img src="logo.svg" class="page-logo" id="img-logo">
+      <nav class="navbar">
+        <ul>
+          <li>
+            <div class="dropdown">
+              <a href="#" class="hover-bold" id="event1">Features</a>
+              <img src="icon-arrow-down.svg" class="arrow-down" id="arrow1" onmouseover="this.src='icon-arrow-up.svg'"
+                onmouseout="this.src='icon-arrow-down.svg'">
+              <div class="dropdown-content">
+                <span style="display:flex" class="features-edit">
+                  <img src="icon-todo.svg" class="feature-images">
+                  <a href="#" class="features-text">Todo list</a>
+                </span>
+                <span style="display:flex" class="features-edit"><img src="icon-calendar.svg" class="feature-images"><a
+                    href="#" class="features-text">Calender</a></span>
+                <span style="display:flex" class="features-edit"><img src="icon-reminders.svg" class="feature-images"><a
+                    href="#" class="features-text">Reminders</a></span>
+                <span style="display:flex" class="features-edit"><img src="icon-planning.svg" class="feature-images"><a
+                    href="#" class="features-text">Planning</a></span>
+              </div>
+            </div>
+
+          </li>
+          <li>
+            <div class="dropdown2">
+              <a href="#" class="hover-bold" id="event2">Company</a>
+              <img src="icon-arrow-down.svg" class="arrow-down" id="arrow2" onmouseover="this.src='icon-arrow-up.svg'"
+                onmouseout="this.src='icon-arrow-down.svg'">
+              <div class="dropdown-content2">
+                <a href="#" id="features-editt">History</a>
+                <a href="#" id="features-editt">Our Team</a>
+                <a href="#" id="features-editt">Blog</a>
+              </div>
+            </div>
+          </li>
+          <li><a href="#">Careers</a></li>
+          <li class="hover-bold"><a href="#">About</a></li>
+        </ul>
+        <span id="dad-second-list">
+          <ul id="second-list">
+            <li class="hover-bold login-media-query"><a href="#">Login</a></li>
+            <li id="border-register"><a href="#">Register</a></li>
+          </ul>
+        </span>
+      </nav>
+    </header>
+
+
+    <section class="body-picture">
+      <div class="layout layout--page-image">
+        <img src="image-hero-desktop.png" id="image-hero">
+      </div>
+      <div class="layout layout--body-text">
+        <h1 id="h1-text">
+          Make<br>remote work
+        </h1>
+        <p id="p-text">
+          Get your team in sync, no matter your location.<br>Streamline processes,
+          create team rituals and<br>watch productivity soar.
+        </p>
+        <p id="learn-text"><a href="#">Learn more</a></p>
+      </div>
+      <div class="layout layout-pics">
+        <img src="client-databiz.svg">
+        <img src="client-audiophile.svg" class="individual-layout-picture">
+        <img src="client-meet.svg" class="individual-layout-picture">
+        <img src="client-maker.svg" class="individual-layout-picture">
+      </div>
+
+
+    </section>
+  </div>
+  <script src="index2.js"></script>
+</body>
+
+</html>
