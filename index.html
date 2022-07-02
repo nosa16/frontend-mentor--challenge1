@@ -18,8 +18,8 @@
     <header>
       <button aria-controls="navbar" aria-expanded="false" class="hamburger-toggle"></button>
       <img src="logo.svg" class="page-logo" id="img-logo">
-      <nav class="navbar">
-        <ul>
+      <nav class="navbar" data-visible="false">
+        <ul id="first-list">
           <li>
             <div class="dropdown">
               <a href="#" class="hover-bold" id="event1">Features</a>
@@ -68,27 +68,32 @@
     <section class="body-picture">
       <div class="layout layout--page-image">
         <img src="image-hero-desktop.png" id="image-hero">
+        <img src="image-hero-mobile.png" id="image-hero-mobile">
       </div>
       <div class="layout layout--body-text">
         <h1 id="h1-text">
-          Make<br>remote work
+          Make <br>remote work
         </h1>
         <p id="p-text">
-          Get your team in sync, no matter your location.<br>Streamline processes,
-          create team rituals and<br>watch productivity soar.
+          Get your team in sync, no matter your location. <br>Streamline processes,
+          create team rituals and <br>watch productivity soar.
         </p>
         <p id="learn-text"><a href="#">Learn more</a></p>
       </div>
       <div class="layout layout-pics">
-        <img src="client-databiz.svg">
+        <img src="client-databiz.svg" class="individual-layout-picture">
         <img src="client-audiophile.svg" class="individual-layout-picture">
         <img src="client-meet.svg" class="individual-layout-picture">
         <img src="client-maker.svg" class="individual-layout-picture">
       </div>
 
-
+    
     </section>
+    <picture>
+      <source srcset="image-hero-mobile.png" media="(min-width:500px)"/>
+    </picture>
   </div>
+  
   <script src="index2.js"></script>
 </body>
 
