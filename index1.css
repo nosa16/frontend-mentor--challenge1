@@ -33,6 +33,7 @@ header {
 .page-logo {
   height: 23px;
   cursor: pointer;
+  margin-top: -8px;
 }
 .hamburger-toggle {
   display: none;
@@ -77,7 +78,7 @@ nav #border-register:hover {
   z-index: 1;
   padding: 10px;
   margin-left: -49px;
-  margin-top: 15px;
+  margin-top: 5px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3);
   font-weight: 600;
 }
@@ -109,7 +110,7 @@ nav #border-register:hover {
   z-index: 1;
   padding: 10px;
   margin-left: -5px;
-  margin-top: 15px;
+  margin-top: 5px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3);
   font-weight: 600;
 }
@@ -224,13 +225,13 @@ a {
   .navbar ul li {
     margin-bottom: 20px;
   }
-  .navba
   .page-logo {
     height: 28px;
+    margin: 0;
   }
   #first-list{
     margin-left: 0px;
-    margin-top: 50px;
+    margin-top: 60px;
   }
   #dad-second-list{
     margin-left: 0px;
@@ -342,8 +343,31 @@ a {
   #p-text br{
     display: none;
   }
-  
-  
+  .dropdown-content{
+    margin-top: 15px;
+    margin-left: 12px;
+    margin-bottom: -20px;
+    position: relative;
+    width: auto;
+    height: auto;
+    box-shadow: none;
+  }
+  .features-edit{
+    margin-bottom: 20px;
+  }
+  .dropdown-content2{
+    position: relative;
+    margin-top: 5px;
+    margin-left: 11px;
+    margin-bottom: -25px;
+    position: relative;
+    width: auto;
+    height: auto;
+    box-shadow: none;
+  }
+  #features-editt{
+    margin-bottom: 20px;
+  }
 }
 @media(min-width:502px) and (max-width: 732px){
   #image-hero-mobile{
